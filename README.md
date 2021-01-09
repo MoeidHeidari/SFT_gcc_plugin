@@ -1,6 +1,6 @@
 # SFT_gcc_plugin
 
-SFT is a gcc plugin to instrument manual Sprioritized tructure Field Transition to enhange data alignment toward the memory data sequence prefetchability enhancement and cache-line usage improvement.
+SFT is a gcc plugin to instrument manual prioritized Structure Field Transition to enhange data alignment toward the memory data sequence prefetchability enhancement and cache-line usage improvement.
 
 ## Installation
 
