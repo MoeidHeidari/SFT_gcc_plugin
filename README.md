@@ -79,7 +79,7 @@ for(unsigned i=0;i<SIZE;++i)
     s_3[i].d=s_3[i].d+55;
     s_3[i].d++;
     s_1[i].x++;
-      for(unsigned j=0;j<SIZE;++j)
+    for(unsigned j=0;j<SIZE;++j)
         {s_3[j].d++;}
     s_3[i].d++;
   }
