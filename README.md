@@ -13,7 +13,7 @@ make plugin_name={plugin_name}
 ## Adjust the make file
 ```bash
 #set the path of GXX executable files
-GCCDIR=/home/andromeda/gcc-plugins/gcc-install/bin
+GCCDIR={GCC executable files path}
 #set the name of the plugin with exact path
 PLUGIN_NAME=$(plugin_name)
 #-----------------------------------------------------------
@@ -44,6 +44,8 @@ clean:
 rm -f $(PLUGINNAME).o $(PLUGINNAME).so
 
 ```
+Example
+GCCDIR=../../gccdir/installation/bin
 ## Usage
 
 ```python
