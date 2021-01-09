@@ -4,10 +4,10 @@ SFT is a gcc plugin to instrument manual prioritized Structure Field Transition 
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the Makefile to make the plugin
 
 ```bash
-pip install foobar
+make plugin_name
 ```
 
 ## Usage
