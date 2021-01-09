@@ -7,9 +7,10 @@ SFT is a gcc plugin to instrument manual prioritized Structure Field Transition 
 Use the Makefile to make the plugin
 
 ```bash
-#plugin_name should be path specific
+
 make plugin_name={plugin_name}
-```
+``
+* plugin_name should be path specific
 ## Adjust the make file
 ```bash
 #set the path of GXX executable files
@@ -70,9 +71,8 @@ struct s3
 };
 ```
 ```bash
-#plugin_name should be path specific
 $(GCCDIR)/g++ -fplugin=plugin_name.so -c test.cc -o test```
-
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
