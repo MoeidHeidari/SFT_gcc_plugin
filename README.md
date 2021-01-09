@@ -69,7 +69,7 @@ struct s3
   #pragma SFT C_0
   float j;
 };
-//===============================================================================
+//...
 struct s1 s_1[SIZE];
 struct s2 s_2[SIZE];
 struct s3 s_3[SIZE];
@@ -83,17 +83,18 @@ for(unsigned i=0;i<SIZE;++i)
         {s_3[j].d++;}
     s_3[i].d++;
   }
-  for(unsigned i=0;i<SIZE;++i)
+for(unsigned i=0;i<SIZE;++i)
   {
     s_2[i].p++;
     s_1[i].y++;
     s_1[i].y=s_1[i].y+32;
 
   }
-  for(unsigned i=0;i<SIZE/2;++i)
+for(unsigned i=0;i<SIZE/2;++i)
   {
   s_3[i].j=s_3[i].j+10;
   }
+  //...
 ```
 to use the plugin
 ```bash
