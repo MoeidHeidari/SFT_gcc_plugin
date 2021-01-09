@@ -1,6 +1,6 @@
 # SFT_gcc_plugin
 
-Foobar is a Python library for dealing with word pluralization.
+SFT is a gcc plugin to instrument manual Sprioritized tructure Field Transition to enhange data alignment toward the memory data sequence prefetchability enhancement and cache-line usage improvement.
 
 ## Installation
 
