@@ -7,7 +7,8 @@ SFT is a gcc plugin to instrument manual prioritized Structure Field Transition 
 Use the Makefile to make the plugin
 
 ```bash
-make plugin_name
+#plugin_name should be path specific
+make plugin_name={plugin_name}
 ```
 
 ## Usage
