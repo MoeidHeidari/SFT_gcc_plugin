@@ -69,6 +69,9 @@ struct s3
   float j;
 };
 ```
+```bash
+#plugin_name should be path specific
+$(GCCDIR)/g++ -fplugin=plugin_name.so -c test.cc -o test```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
