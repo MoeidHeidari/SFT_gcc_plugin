@@ -44,16 +44,30 @@ clean:
 rm -f $(PLUGINNAME).o $(PLUGINNAME).so
 
 ```
-**Example**
+**Example**  
 GCCDIR=../../gccdir/installation/bin
+
 ## Usage
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```C++
+struct s1 {
+    #pragma SFT A_1
+    int x;
+    #pragma SFT B_1
+    int y;
+};
+struct s2
+{
+  #pragma SFT B_0
+  int p;
+};
+struct s3
+{
+  #pragma SFT A_0
+  double d;
+  #pragma SFT C_0
+  float j;
+};
 ```
 
 ## Contributing
