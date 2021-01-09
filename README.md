@@ -70,8 +70,26 @@ struct s3
   float j;
 };
 ```
+to use the plugin
 ```bash
-$(GCCDIR)/g++ -fplugin=plugin_name.so -c test.cc -o test```
+$(GCCDIR)/g++ -fplugin=plugin_name.so -c test.cc -o test
+```
+you will get such a reordered structures
+```C++
+struct s1 {
+   double d;
+   int x;
+
+};
+struct s2
+{
+ int p;
+ int y;
+};
+struct s3
+{
+ float j;
+};
 ```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
