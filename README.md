@@ -44,7 +44,7 @@ clean:
 rm -f $(PLUGINNAME).o $(PLUGINNAME).so
 
 ```
-Example
+**Example**
 GCCDIR=../../gccdir/installation/bin
 ## Usage
 
