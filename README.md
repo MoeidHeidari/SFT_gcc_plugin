@@ -8,7 +8,7 @@ Use the Makefile to make the plugin
 
 ```bash
 #plugin_name should be path specific
-make plugin_name=*plugin_name*
+make plugin_name=__plugin_name__
 ```
 
 ## Usage
