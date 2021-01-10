@@ -76,7 +76,7 @@ struct s3 s_3[SIZE];
 for(unsigned i=0;i<SIZE;++i)
   {
     s_3[i].d++;
-    s_3[i].d=s_3[i].d+55;
+    s_3[i].x=s_3[i].d+55;
     s_3[i].d++;
     s_1[i].x++;
     for(unsigned j=0;j<SIZE;++j)
