@@ -96,7 +96,7 @@ for(unsigned i=0;i<SIZE/2;++i)
   }
   //...
 ```
-Hottest | #1 | #2 | #3 | #4 | #4 
+Hottest | #1 | #2 | #3 | #4 | #5 
 --- | --- | --- | --- |--- |--- 
 Field | d | x | p | y | j  
 
