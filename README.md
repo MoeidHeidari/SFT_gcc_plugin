@@ -126,12 +126,8 @@ struct s3
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
-
-<p>
-  <a href="https://www.paypal.me/AbdennourT/10">
-      <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="paypal">
-  </a>
-</p>
+let me know if you should have any issue
+moeidheidari@mail.ru
 
 ## License
 [GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
